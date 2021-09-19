@@ -1,10 +1,15 @@
 <template>
-  <h1>This is a todo app by vuw js</h1>
+  <AddTask />
 </template>
 
 <script>
+import AddTask from "./components/AddTask.vue";
+
 export default {
   name: "App",
+  components: {
+    AddTask,
+  }
 };
 </script>
 
