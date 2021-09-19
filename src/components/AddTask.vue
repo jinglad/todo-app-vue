@@ -29,6 +29,11 @@ export default {
   components: {
     Todo
   },
+  data(){
+  },
+  methods: {
+
+  }
 };
 </script>
 
